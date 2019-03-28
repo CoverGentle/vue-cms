@@ -24,3 +24,17 @@ export default 和 export向外暴露对象
     "plugins":["transform-runtime"]
 }
 
+
+##制作首页app
+1.完成header区域使用了
+
+##改造tabbar为router-link
+
+##设置路由高亮
+
+##点击tabbar中的路由链接 展示对应的路由组件
+
+##制作首页轮播图
+
+##加载首页轮播图数据
+1.获取数据 使用axios

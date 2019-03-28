@@ -6,27 +6,29 @@
     <mt-header fixed title="首页"></mt-header>
 
     <!-- 中间路由router-view -->
-    <h1>123</h1>
+    <router-view></router-view>
 
     <!-- 底部tabbar区域 -->
-    <mt-tabbar v-model="selected">    
-      <mt-tab-item id="首页">
-        <img slot="icon" src="./images/shouye.png">
-        首页
-      </mt-tab-item>
-      <mt-tab-item id="会员">
-        <img slot="icon" src="./images/wodejuhuasuan.png">
-        会员
-      </mt-tab-item>
-      <mt-tab-item id="购物车">
-        <img slot="icon" src="./images/gouwuche.png">
-        购物车
-      </mt-tab-item>
-      <mt-tab-item id="搜索">
-        <img slot="icon" src="./images/sousuo.png">
-        搜索
-      </mt-tab-item>
-    </mt-tabbar>
+    <nav class="mui-bar mui-bar-tab">
+			<router-link class="mui-tab-item" to="/home">
+				<span class="mui-icon mui-icon-home"></span>
+				<span class="mui-tab-label">首页</span>
+			</router-link>
+			<router-link class="mui-tab-item" to="/memberVip">
+				<span class="mui-icon mui-icon-contact"></span>
+				<span class="mui-tab-label">会员</span>
+			</router-link>
+			<router-link class="mui-tab-item" to="/shopCar">
+				<span class="mui-icon mui-icon-extra mui-icon-extra-cart">
+          <span class="mui-badge">9</span>
+        </span>
+				<span class="mui-tab-label">购物车</span>
+			</router-link>
+			<router-link class="mui-tab-item" to="/search">
+				<span class="mui-icon mui-icon-search"></span>
+				<span class="mui-tab-label">搜索</span>
+			</router-link>
+		</nav>
   </div>
 </template>
 
