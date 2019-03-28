@@ -1,4 +1,4 @@
-# learnWebpack
+# learnWebpack和vue项目
 学习webpack
 ES6导入模块，
 使用import 模块名称 from ‘模块标识符’  
