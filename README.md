@@ -37,4 +37,7 @@ export default 和 export向外暴露对象
 ##制作首页轮播图
 
 ##加载首页轮播图数据
-1.获取数据 使用axios
+1.获取数据 使用vue-resource
+2.使用vue-resource的this.$http.get获取数据
+3获取到的数据要保存到data身上
+4.使用v-for循环渲染 每个item项

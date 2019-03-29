@@ -2,9 +2,19 @@
 import Vue from 'vue'
 //导入app组件
 import app from './app.vue'
+//index.css
+import './css/index.css'
 //导入路由的包
 import VueRouter from 'vue-router'
 Vue.use(VueRouter)
+//导入axios vue-axios
+// import axios from 'axios'
+// import VueAxios from 'vue-axios'
+// Vue.use(VueAxios,axios)
+//导入vue-resource
+import VueResource from 'vue-resource'
+Vue.use(VueResource)
+
 //导入路由模块
 import router from './router/router.js'
 //导入mui的样式

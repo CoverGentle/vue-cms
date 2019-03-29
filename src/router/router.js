@@ -10,6 +10,7 @@ import searchContainer from '../components/tabbar/searchContainer.vue'
 //3.创建路由对象
 var router = new VueRouter({
    routes:[
+       {path:'/',redirect:'/home'},
        { path:'/home',component:homeContainer},
        { path:'/memberVip',component:memberVipContainer},
        { path:'/shopCar',component:shopcarContainer},
